@@ -1,0 +1,76 @@
+body {
+  background-image: url("366025.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body .form {
+  width: 320px;
+  height: 430px;
+  left: 40%;
+  top: 30%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.63);
+  color: darkblue;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70px 50px;
+  border-radius: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body .form .image {
+  width: 320px;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: -22%;
+  left: 3%;
+}
+
+body .form input:focus {
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body .form input {
+  border-radius: 5px;
+  font-style: italic;
+  display: block;
+  text-align: center;
+  float: right;
+}
+
+body .form label {
+  text-align: left;
+}
+
+body .form .none {
+  display: inline-block;
+  float: none;
+  margin-left: 20px;
+}
+
+body .form select {
+  float: right;
+  border-radius: 5px;
+}
+
+body .form .button:hover {
+  color: white;
+  background-color: blue;
+}
+
+body .form .button {
+  float: none;
+  text-align: center;
+  margin-left: 90px;
+}
+
+body .form .pass {
+  position: absolute;
+  margin-left: -10px;
+}
+/*# sourceMappingURL=register2.css.map */

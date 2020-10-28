@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register2.css">
+    <title>REGİSTER
+    </title>
+</head>
+
+<body>
+
+    <div id="page">
+        <div class="form">
+            <img src="nasa-logo-web-rgb.png" class="image" alt="">
+            <form method="POST" action="home.py">
+                <label for="name">Name</label>
+                <input class="name" type="text" name="name" placeholder="Please enter a name">
+                <br> <br>
+                <label for="surname">Surname</label>
+                <input class="name" type="text" name="surname" placeholder="Please enter a surname">
+                <br> <br>
+                <label for="gender">Gender</label>
+                <input class="none" type="radio" name="gender" value="Male">Male
+                <input class="none" type="radio" name="gender" value="Female">Female
+                <br> <br>
+                <label for="phone">Phone no</label>
+                <select name="phone">
+                    <option value="0">Enter country code</option>
+                    <option value="+994">+994</option>
+                    <option value="+995">+995</option>
+                    <option value="+996">+996</option>
+                    <option value="+997">+997</option>
+                </select>
+                <input type="phone" name="phone" placeholder="*******">
+                <br> <br> <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Please enter a email">
+                <br> <br>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" placeholder="Please enter a pass">
+                <br> <br> <br>
+                <label class="pass" for="Apass">A.Password</label>
+                <input type="password" name="Apass" placeholder="Please enter a a.pass">
+                <br> <br>
+                <input class="button" type="submit" value="SEND">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

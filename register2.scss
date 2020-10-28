@@ -1,0 +1,102 @@
+body{
+    background-image: url('366025.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+    
+    .form{
+        width: 320px;
+        height: 430px;
+        left: 40%;
+        top: 30%;
+        position: absolute;
+        background-color:rgba(255, 255, 255, 0.63);
+        color: darkblue;
+        box-sizing: border-box;
+        padding: 70px 50px ;
+        border-radius: 25px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+        
+
+        .image{
+            width: 320px;
+            height: auto;
+            border-radius: 50%;
+            position: absolute;
+            top: -22%;
+            left: 3%;
+        }
+        input:focus{
+            background-color: blue;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input{
+            border-radius: 5px;
+            font-style: italic;
+            display: block;
+            text-align: center;
+            float: right;   
+        }
+
+
+
+        label{
+        text-align: left;
+        }
+
+
+        .none{
+            display: inline-block;
+            float: none;
+            margin-left: 20px;
+        }
+
+        select{
+            float: right;
+            border-radius:5px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .button:hover{
+            color:white;
+            background-color: blue;
+        }
+        .button{
+            float: none;
+            text-align: center;
+            margin-left: 90px;
+        }
+    
+        .pass{
+            position: absolute;
+           
+            margin-left: -10px;
+        }
+      
+        
+        
+    }
+   
+   
+
+
+}
+
+    
+
+			
+			
+                    
